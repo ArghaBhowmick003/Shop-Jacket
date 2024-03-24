@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+    
+}
+
+#nav h4 {
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+
+#nav h4:hover {
+    text-shadow: 3px 3px 5px grey;
+
+}
+
+#nav>#icon {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+}
+
+#nav #icon:hover {
+    box-shadow: 3px 3px 5px grey;
+}
+
+#center {
+    width: 100%;
+    padding: 40px 80px;
+
+}
+
+#center h1 {
+    width: 38%;
+    padding: 15px;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+    /* border: 2px solid black; */
+    box-shadow: 15px 15px 30px rgb(177, 176, 176);
+    border-radius: 20px;
+}
+
+#center-in {
+    /* height: 200px; */
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#right {
+    width: 20%;
+}
+
+.elem {
+    margin: 5px;
+    padding: 20px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all ease 0.5s;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.elem svg {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.elem:hover svg {
+    opacity: 1;
+
+}
+
+.elem:hover {
+    background-color: rgb(233, 233, 233);
+    box-shadow: 5px 5px 10px rgb(162, 162, 162);
+}
+
+.elem:hover a {
+    text-decoration: underline;
+}
+
+#bottom {
+    height: 80%;
+    width: 100%;
+    background-image: url(./images/jacket\ style.jpg);
+    background-size: cover;
+    background-position: 0 20%;
+}

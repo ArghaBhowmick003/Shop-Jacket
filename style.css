@@ -32,6 +32,7 @@ body {
 #nav h4 {
     font-size: 20px;
     transition: all ease 0.5s;
+    cursor: pointer;
 }
 
 #nav h4:hover {
@@ -45,6 +46,7 @@ body {
     padding: 10px;
     border-radius: 50%;
     transition: all ease 0.5s;
+    cursor: pointer;
 }
 
 #nav #icon:hover {
@@ -89,14 +91,14 @@ body {
 .elem {
     margin: 5px;
     padding: 20px 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     transition: all ease 0.5s;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .elem svg {

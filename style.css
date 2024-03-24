@@ -15,7 +15,7 @@ body {
 #main {
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 #nav {
@@ -55,48 +55,42 @@ body {
 
 #center {
     width: 100%;
-    padding: 40px 80px;
-
+    padding: 40px;
+    
 }
 
 #center h1 {
-    width: 38%;
-    padding: 15px;
+    width: 50%;
     font-size: 80px;
     font-weight: 500;
     line-height: 90px;
-    /* border: 2px solid black; */
-    box-shadow: 15px 15px 30px rgb(177, 176, 176);
-    border-radius: 20px;
 }
 
 #center-in {
-    /* height: 200px; */
     width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 60px;
+    
 }
 
 #center-in p {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 32px;
 }
 
 #right {
     width: 20%;
+    margin-left: 80%;
 }
 
 .elem {
     margin: 5px;
-    padding: 20px 0;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 20px;              
     transition: all ease 0.5s;
-    /* border: 2px solid black; */
     border-radius: 10px;
     cursor: pointer;
 }
@@ -122,8 +116,8 @@ body {
 }
 
 .elem:hover {
-    background-color: rgb(233, 233, 233);
-    box-shadow: 5px 5px 10px rgb(162, 162, 162);
+    background-color: rgb(239, 239, 239);
+    box-shadow: 5px 5px 30px rgb(215, 215, 215);
 }
 
 .elem:hover a {
